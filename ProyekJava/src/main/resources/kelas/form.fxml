@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane stylesheets="@styles/app.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kelas.controller.FormController">
+    <top>
+        <HBox spacing="16" styleClass="header">
+            <Label styleClass="title" text="Produk Toko" />
+            <Button onAction="#bukaDaftar" text="Lihat Daftar" />
+        </HBox>
+    </top>
+    <center>
+        <ScrollPane fitToWidth="true">
+            <content>
+                <VBox spacing="16" styleClass="page">
+                    <VBox spacing="12" styleClass="card">
+                        <Label styleClass="subtitle" text="Tambah Produk" />
+                        <Label text="Nama Produk" />
+                        <TextField fx:id="namaField" promptText="Contoh: Susu" />
+                        <Label text="Kategori" />
+                        <ComboBox fx:id="kategoriBox" maxWidth="Infinity" />
+                        <Label styleClass="muted" text="Makanan • Minuman" wrapText="true" />
+                        <Label text="Harga" />
+                        <TextField fx:id="hargaField" promptText="Contoh: 15000" />
+                        <Label fx:id="pesanLabel" prefHeight="18.0" prefWidth="0.0" styleClass="error" wrapText="true" />
+                        <Button maxWidth="Infinity" onAction="#simpan" styleClass="button-primary" text="Simpan dan Lihat Detail" />
+                    </VBox>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>

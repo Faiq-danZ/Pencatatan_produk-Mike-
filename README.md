@@ -1,6 +1,6 @@
 # Pencatatan Produk - Michael Sin
 
-**Catatan:** Proyek ini adalah milik Michael Sin. Kode sumber ini diunggah dan di-hosting melalui akun GitHub Ahmad Faiq Zidane karena Michael sedang mengalami kendala teknis (error) saat membuka GitHub melalui Google Chrome dan browser lainnya.
+**Catatan:** Proyek ini adalah milik Michael Sin. Kode sumber ini diunggah melalui akun GitHub Ahmad Faiq Zidane karena Michael sedang mengalami kendala teknis (error) saat membuka GitHub melalui Google Chrome dan browser lainnya.
 
 ## Deskripsi
 Aplikasi desktop untuk mengelola pencatatan produk, dikembangkan menggunakan Java.
